@@ -624,6 +624,11 @@
 			"args":   null
 		},
 		{
+			"name":   "_llseek",
+			"action": "SCMP_ACT_ALLOW",
+			"args":   null
+		},
+		{
 			"name":   "lremovexattr",
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
