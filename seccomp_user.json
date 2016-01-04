@@ -42,6 +42,11 @@
 			"args":   null
 		},
 		{
+			"name":   "capset",
+			"action": "SCMP_ACT_ALLOW",
+			"args":   null
+		},
+		{
 			"name":   "chdir",
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
