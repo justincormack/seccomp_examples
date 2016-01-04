@@ -958,7 +958,7 @@
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
 		},
-				{
+		{
 			"name":   "sched_getaffinity",
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
