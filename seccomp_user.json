@@ -1033,7 +1033,11 @@
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
 		},
-
+		{
+			"name":   "setgid32",
+			"action": "SCMP_ACT_ALLOW",
+			"args":   null
+		},
 		{
 			"name":   "sethostname",
 			"action": "SCMP_ACT_ALLOW",
@@ -1071,6 +1075,11 @@
 		},
 		{
 			"name":   "setuid",
+			"action": "SCMP_ACT_ALLOW",
+			"args":   null
+		},
+		{
+			"name":   "setuid32",
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
 		},
