@@ -1039,12 +1039,22 @@
 			"args":   null
 		},
 		{
+			"name":   "setgroups",
+			"action": "SCMP_ACT_ALLOW",
+			"args":   null
+		},
+		{
 			"name":   "sethostname",
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
 		},
 		{
 			"name":   "setitimer",
+			"action": "SCMP_ACT_ALLOW",
+			"args":   null
+		},
+		{
+			"name":   "setns",
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
 		},
