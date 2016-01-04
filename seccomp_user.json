@@ -1064,11 +1064,6 @@
 			"args":   null
 		},
 		{
-			"name":   "setns",
-			"action": "SCMP_ACT_ALLOW",
-			"args":   null
-		},
-		{
 			"name":   "set_robust_list",
 			"action": "SCMP_ACT_ALLOW",
 			"args":   null
